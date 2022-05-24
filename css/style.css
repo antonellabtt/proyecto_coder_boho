@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "brittany";
+    src: url("../fonts/BrittanySignature.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barra{
+    background-color:#EFE9E4 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.barra__titulo{
+
+font-family: brittany;
+color:#293731;
+}
+.barra__nav{
+    width: 500px;
+
+}
+.barra__nav__links{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    padding-right: 20px;
+
+}
+main{
+    background-image: url("../multimedia/background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.tituloprincipal{
+    font-family: brittany;
+    font-size: 50px;
+    text-align: center;
+    color:#293731;
+}
+.trabajos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    
+}
+.trabajos__tapices{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+
+}
+.trabajos__titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.trabajos__descripcion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.materiales{
+    display: flex;
+    margin-bottom: 90px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.materiales__titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.materiales__descripcion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.materiales__hilos{
+    width: 400px;
+    margin-left: 30px;
+
+}
+.imagenRedondeo{
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.pie{
+    background-color:#EFE9E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid white;
+}
+.frase{
+    font-family: brittany;
+}
+
+.diy{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diy__video{
+    border:3px solid white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+.nuestrostrabajos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+
+.nuestrostrabajos__articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.nuestrostrabajos__titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.nuestrostrabajos__descripcion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 120px;
+    width: 300px;
+
+}
+
+.formularioconsultas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formularioconsultas__grilla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border: 5px solid white;
+    margin-bottom: 90px;
+}
+
+.parrafoquienessomos{
+    margin-bottom: 90px;
+}
