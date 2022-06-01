@@ -5,19 +5,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <title>Boholand</title>
   </head>
   <body>
     <header class="barra">
       <h1 class="barra__titulo">Boholand</h1>
-      <nav class="barra__nav">
-        <ul class="barra__nav__links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="./views/quienessomos.html">Quienes Somos</a></li>
-          <li><a href="./views/coleccion.html">Colección</a></li>
-          <li><a href="./views/diy.html">DIY</a></li>
-          <li><a href="./views/contacto.html">Contacto</a></li>
-        </ul>
+      
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/quienessomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="./views/coleccion.html">Colección</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/diy.html">DIY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -99,5 +132,11 @@
         /></a>
       </section>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
