@@ -54,30 +54,31 @@
     </header>
 
     <main>
+      
       <section class="formularioconsultas">
-        <h2 class="tituloprincipal">Consultas</h2>
+        <h2 class="tituloprincipal mt-4">Consultas</h2>
         <form
           action="./index.js"
           method="post"
-          class="formularioconsultas__grilla"
+          class="formularioconsultas__grilla p-5"
         >
-          <label for="nombre">Nombre y Apellido</label>
+          <label for="nombre" class="form-label">Nombre y Apellido</label>
           <br />
-          <input type="text" name="nombre" />
+          <input type="text" name="nombre" class="form-control"/>
           <br />
-          <label for="email">Email</label>
+          <label for="email" class="form-label">Email</label>
           <br />
-          <input type="email" name="email" />
+          <input type="email" name="email" class="form-control"/>
           <br />
-          <label for="telefono">Teléfono</label>
+          <label for="telefono" class="form-label">Teléfono</label>
           <br />
-          <input type="number" name="telefono" />
+          <input type="number" name="telefono" class="form-control"/>
           <br />
-          <label for="consulta">Consultas</label>
+          <label for="consulta" class="form-label">Consultas</label>
           <br />
-          <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+          <textarea name="consulta" id="" cols="30" rows="10" class="form-control"></textarea>
           <br />
-          <button type="submit">Enviar</button>
+          <button type="submit" class="btn btn-primary mb-3 w-25">Enviar</button>
         </form>
       </section>
     </main>

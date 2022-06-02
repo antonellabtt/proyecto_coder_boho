@@ -54,10 +54,6 @@ html {
   /*background-color: #efe9e4;*/
 }
 .barra__nav__links {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding-right: 2rem;
   font-size: 2rem;
   gap: 4rem;
@@ -90,7 +86,7 @@ main {
 .trabajos__tapices {
   display: flex;
   flex-direction: column;
-  margin: 0 2rem;
+  /*margin: 0 2rem;*/
   width: 25%;
 }
 .trabajos__titulo {
@@ -126,8 +122,8 @@ main {
   margin-left: 3rem;
 }
 .imagenRedondeo {
-  border-top-left-radius: 40%;
-  border-top-right-radius: 40%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
   width: 100%;
   height: auto;
   transition: all 1s;
@@ -239,11 +235,16 @@ main {
     flex-direction: column;
     align-items: center;
   }
-  .diy__video {
-    width: 100%;
-    height: auto;
-  }
+  
   .formularioconsultas__grilla {
     width: 30rem;
   }
 }
+@media only screen and (max-width: 950px) {
+  .diy__video {
+    width: auto;
+    height: auto;
+  }
+
+}
+
